@@ -72,7 +72,7 @@ names(x.selected)
 #5. Creating a second, independent tidy data set with the average of each variable for    | 
 #each activity and each subject.                                                          |
 #-----------------------------------------------------------------------------------------+
-tidy.summary<-aggregate(x.selected[-c(1,2)],list(acivity=x.selected$activity,subject=x.selected$subject),FUN=mean)
+tidy.summary<-aggregate(x.selected[-c(1,2)],list(activity=x.selected$activity,subject=x.selected$subject),FUN=mean)
 dim(tidy.summary)
 #180 corresponds to 6 (activities) x 30 (subjects). 81 corresponds to subject + activity + 79 variables
 #I wrote the tidy data with: write.csv(tidy.summary,file="tidyData.csv",row.names=FALSE)
