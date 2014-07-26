@@ -12,7 +12,7 @@ In this data set (tidyData.csv), the mean and standard deviation for the variabl
 
 2 subject: Subjects numbered from 1 to 30
 
-## Variables. Averaged for each activity and each subject, from original values given un standard deviation units.
+## Variables. Averaged for each activity and each subject, from original values given in standard deviation units.
 
 3 tBodyAcc-mean()-X
 
