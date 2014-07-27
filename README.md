@@ -8,5 +8,5 @@ The data set comprises training and test data for 561 motion variables in 30 sub
 
 The script [run_analysis.R](https://github.com/mathgenome/ProjectGCData/blob/master/run_analysis.R) merges the training and test set in a single data set. Then it extracts the variables related to mean and standard deviation of measurements. It generates a data set with a column for activity in a descriptive way, a column for subject and columns for the selected variables, i.e. those related to mean and standar deviation of measurements.
 
-Finally, it creates a tidy data set (tidyData.csv) with the average of each variable for each activity and each subject. A description of the variables for this data set is in CodeBook.md.
+Finally, it creates a tidy data set (tidyData.csv) with the average of each variable for each activity and each subject. A description of the variables for this data set is in CodeBook.md(https://github.com/mathgenome/ProjectGCData/blob/master/CodeBook.md).
 
